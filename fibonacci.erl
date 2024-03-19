@@ -15,5 +15,5 @@ fib(N) when N > 0 ->
 
 fib(1, A, _) ->
     A;
-fib(N, A, B) when N > 1 -> % Removed extra 'when' clause
+fib(N, A, B) when N > 1 ->
     fib(N - 1, B, A + B).
